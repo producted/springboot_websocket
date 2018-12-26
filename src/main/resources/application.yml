@@ -1,0 +1,12 @@
+server:
+  port: 8083
+
+spring:
+  thymeleaf:
+    mode: LEGACYHTML5
+    cache: false
+    prefix: classpath:/templates/
+    encoding: UTF-8
+    suffix: .html
+    servlet:
+      content-type: text/html
